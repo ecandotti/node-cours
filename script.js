@@ -12,4 +12,4 @@ function add(num1 = 0, num2 = 0, num3 = 0) {
     return num1 + num2 + num3
 }
 
-console.log(2,4)
+console.log(add(2,4))
