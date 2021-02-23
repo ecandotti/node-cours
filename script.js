@@ -15,11 +15,11 @@ function add(numbers) {
     let result = 0
 
     for (let i = 0; i < arrNumber.length; i++) {
-        result += parseInt(arrNumber[i])
+        result += parseFloat(arrNumber[i])
         
     }
     
     return (result + "")
 }
 
-console.log(add("23,33,1"))
+console.log(add("0"))
