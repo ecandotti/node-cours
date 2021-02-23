@@ -3,7 +3,8 @@
 let number1 = "3"
 let number2 = "2"
 
-console.log(parseInt(numOne) + parseInt(numTwo) + '')
+console.log(parseInt(number1) + parseInt(number2) + '')
+console.log(typeof (parseInt(number1) + parseInt(number2) + ''))
 
 // Step two
 
