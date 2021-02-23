@@ -9,7 +9,7 @@ console.log(typeof (parseInt(number1) + parseInt(number2) + ''))
 // Step two
 
 function add(num1 = 0, num2 = 0, num3 = 0) {
-    return num1 + num2 + num3
+    return parseInt(num1) + parseInt(num2) + parseInt(num3)
 }
 
 console.log(add(2,4))
